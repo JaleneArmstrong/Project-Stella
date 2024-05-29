@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>StellaGirls</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="w3.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body class="w3-light-grey w3-content" style="max-width:1600px">
+
+        <!-- Sidebar/menu -->
+        <nav class="w3-sidebar w3-collapse w3-animate-left" style="z-index:3; width: 300px; color: white; background-color: #CA3C8C!important; border-right: 5px dashed #fff!important; border-left: 5px dashed #fff!important;" id="mySidebar"><br>
+            <div class="w3-container">
+                <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-xlarge w3-padding w3-hover-grey" title="close menu">
+                <i class="fa fa-remove"></i>
+                </a>
+            </div>
+            
+            <img src="img/stellalogo.png" style="width: 100%; text-align: center; padding-top: 15px; padding-bottom: 15px;">
+
+            <div class="w3-bar-block">
+                <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-padding" style="cursor: url(img/pink_star.gif), pointer;"><img class="w3-margin-right" src="img/games.png" style="cursor: url(img/pink_star.gif), pointer;"></i>Games</a> 
+                <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-padding" style="cursor: url(img/pink_star.gif), pointer;"><img class="w3-margin-right" src="img/tunes.png" style="cursor: url(img/pink_star.gif), pointer;"></i>Tunes</a> 
+                <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-padding" style="cursor: url(img/pink_star.gif), pointer;"><img class="w3-margin-right" src="img/about.png" style="cursor: url(img/pink_star.gif), pointer;"></i>About</a>
+            </div>
+        </nav>
+
+        <!-- Overlay effect when opening sidebar on small screens -->
+        <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+        <!-- !PAGE CONTENT! -->
+        <div class="w3-main" style="margin-left:300px">
+
+        <!-- Header -->
+        <header class="banner">
+            <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+            <div class="container">
+                <a href="#"><img src="img/stellabanner.png"></a>
+            </div>
+        </header>
+        
+        <!-- First Row -->
+        <div id="content" class="w3-row-padding" style="padding: 50px 50px;">
+
+            <div class="w3-third w3-container w3-margin-bottom image-container" style="--static-image: url('img/stellas/closet.png'); --hover-image: url('img/stellas/closet.gif');">
+                <div class="game-cover"></div>
+                <div class="w3-container w3-white" style="width:95%">
+                    <p><b>Stella's Closet</b></p>
+                    <p>Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah</p>
+                </div>
+            </div>
+
+            <div class="w3-third w3-container w3-margin-bottom image-container" style="--static-image: url('img/stellas/movein.png'); --hover-image: url('img/stellas/movein.gif');">
+                <div class="game-cover"></div>
+                <div class="w3-container w3-white" style="width:95%">
+                    <p><b>Stella Moves In!</b></p>
+                    <p>Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah</p>
+                </div>
+            </div>
+
+            <div class="w3-third w3-container w3-margin-bottom image-container" style="--static-image: url('img/stellas/animal.png'); --hover-image: url('img/stellas/animal.gif');">
+                <div class="game-cover"></div>
+                <div class="w3-container w3-white" style="width:95%">
+                    <p><b>Stella's Animal Shelter</b></p>
+                    <p>Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="image-container">
+            <img src="img/star_heart_div.gif" class="star-divider">
+            <img src="img/star_heart_div.gif" class="star-divider">
+        </div>
+        
+        <!-- Second Row -->
+        <div id="content" class="w3-row-padding" style="padding: 50px;">
+
+            <div class="w3-third w3-container w3-margin-bottom image-container" style="--static-image: url('img/stellas/hitchhike.png'); --hover-image: url('img/stellas/hitchhike.gif');">
+                <div class="game-cover"></div>
+                <div class="w3-container w3-white" style="width:95%">
+                    <p><b>Hitchhike With Stella</b></p>
+                    <p>Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah</p>
+                </div>
+            </div>
+
+            <div class="w3-third w3-container w3-margin-bottom image-container" style="--static-image: url('img/stellas/hotel.png'); --hover-image: url('img/stellas/hotel.gif');">
+                <div class="game-cover"></div>
+                <div class="w3-container w3-white" style="width:95%">
+                    <p><b>Stella's Hotel</b></p>
+                    <p>Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah</p>
+                </div>
+            </div>
+
+            <div class="w3-third w3-container w3-margin-bottom image-container" style="--static-image: url('img/stellas/band.png'); --hover-image: url('img/stellas/band.gif');">
+                <div class="game-cover"></div>
+                <div class="w3-container w3-white" style="width:95%">
+                    <p><b>Stella & Friends Indie Band</b></p>
+                    <p>Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah</p>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Pagination
+        <div class="w3-center w3-padding-32">
+            <div class="w3-bar">
+            <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+            <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+            <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+            <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+            <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+            <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+            </div>
+        </div> -->
+        
+        <!-- End page content -->
+        <div style="background-color: #C657C5; color: white;" class="w3-center w3-padding-24">©<a href="http://12starbits.rf.gd/welcome/welcome.php" title="12stargirlies" target="_blank" class="w3-hover-opacity">12stargirlies</a> 2002 - 2007</div>
+
+        <script src="script.js"></script>
+        <script src="tinkerbell.js"></script>
+
+    </body>
+</html>
